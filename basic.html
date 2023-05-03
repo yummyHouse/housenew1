@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/houseloanstyle.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>新版網站樣式</title>
+
+</head>
+
+<body>
+  <!-- script要引入必須要在body下方 中間不能被其他標籤隔開 -->
+  <script src="./scripts/header.js"></script>
+
+
+  <div id="wrap">
+    <!-- 第1項 -->
+    <div class="group mx-auto">
+      <div class="yummy accordion-collapse collapse show" id="panelsStayOpen-collapseOne"
+        class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <p>2-1.基礎樣式範例</p>
+        <h2 style="margin:80px auto 50px; width: 800px; text-align: center;">我是h2標題範例</h2>
+        <h3 style="margin:50px auto 20px; width: 800px; text-align: center;">我是h3標題範例</h3>
+        <ul style="margin:35px auto; width: 800px; text-align: center; margin-left: -30px;">
+          <li>一般表單第一項</li>
+          <li>一般表單第二項</li>
+          <li>一般表單第三項</li>
+        </ul>
+        <ol style="margin:35px auto; width: 800px; text-align: center; margin-left: -30px;">
+          <li>數字表單第一項</li>
+          <li>數字表單第二項</li>
+          <li>數字表單第三項</li>
+        </ol>
+        <p style="margin:35px auto; width: 800px; text-align: center; "><a style="text-decoration: none;"
+            href="#">我是超連結</a></p>
+        <p style="padding:30px;">
+          新冠疫情重創台灣經濟，為了協助民眾及企業度過難關，政府推出紓困補助及紓困貸款等措施。但有些民眾擔心，申請勞工紓困貸款會影響到日後買房的貸款成數和利率，一方面因為疫情影響需要資金紓困、另一方面又怕影響房貸成數，該怎麼辦才好？
+        </p>
+
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">影響這篇文章（被包裹區塊內）的h2、h3標題、ul一般表單、ol數字表單、li表單項目、a超連結的元素、文章的行高</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 貼到文章的文字(html)編輯頁面<br>
+          Step3. 先在預覽編輯頁貼好文章，再分別把<mark>標籤頭</mark>及<mark>標籤尾</mark>貼到<mark>第一行</mark>及<mark>最後一行</mark><br>
+
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="基礎樣式">
+<!-- 貼在第一行 -->
+<div class="yummy">
+             
+<!-- 貼在最後一行 -->
+</div>
+          </textarea>
+        <button class="copyBtn">複製</button>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- 第2項 -->
+    <div class="group mx-auto">
+
+      <div class="yummy">
+        <p>2-2.影片RWD</p>
+        <img src="img/videoRWD.jpg" width="800" style="margin: 50px auto;">
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">使16:9的影片隨螢幕寬度縮放</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 貼到文章的文字(html)編輯頁面<br>
+          Step3. 把影片網址貼到對應的位置
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="16:9影片RWD">
+  <div class="video-container">[embed]youtube影片網址[/embed]</div>
+          </textarea>
+        <button class="copyBtn" style="height: 100px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第3項 -->
+    <div class="group mx-auto">
+
+
+
+
+      <div class="yummy">
+
+        <p>2-3.介紹型表單<span style="color:red;">(2023/3/20更新為第二版)</span></p>
+        <ul class="introul2" style="margin:0px auto 20px; width: 800px; text-align: center; margin-left: -30px;">
+          <li>
+            <h4>介紹型表單第一項</h4>第一項的內容說明
+          </li>
+          <li>
+            <h4>介紹型表單第二項</h4>第二項的內容說明
+          </li>
+        </ul>
+      </div>
+
+      <div class="introBox">
+        <p class="intro">第二版介紹型表單與Tips和QA類似，都是用h4包住標題，使google能將一個li標籤內的標題及內容辨識為一組。<br>h4中的項目標題，下方是項目說明。</p>
+        <p class="intro">Step1. 複製下方語法並貼到文章的文字(html)編輯頁面<br>
+          Step2. 把項目標提及敘述填入<br>
+          Step3. 若有其他項請再新增一組li標籤包裹h4標題及其敘述</p>
+      </div>
+
+
+      <div class="copyArea">
+        <textarea class="content" name="介紹型表單"><ul class="introul2">
+  <li><h4>第1項</h4>第1項的敘述</li>
+  <li><h4>第2項</h4>第2項的敘述</li>
+</ul>     
+</textarea>
+        <button class="copyBtn">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第4項 -->
+    <div class="group mx-auto">
+
+      <div class="yummy">
+
+        <p>2-4.介紹型表單(同列)</p>
+        <ul class="introul2 noBR" style="margin:0px auto 20px; width: 800px; margin-left: -30px;">
+          <li>
+            <h4>介紹型表單同列第一項：</h4>第一項的內容說明第一項的內容說明第一項的內容說明第一項的內容說明第一項的內容說明第一項的內容說明
+          </li>
+          <li>
+            <h4>介紹型表單同列第二項：</h4>第二項的內容說明第二項的內容說明第二項的內容說明第二項的內容說明
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="introBox">
+        <p class="intro">與2-3的標籤架構差不多，只是在ul的class中多補一個noBR(不換行)將介紹型表單變成同列。<br>若要合併編號使用，請編輯自行補上，這邊不再多做數字列表的版本。</p>
+        <p class="intro">Step1. 複製下方語法並貼到文章的文字(html)編輯頁面<br>
+          Step2. 把項目標提及敘述填入<br>
+          Step3. 若有其他項請再新增一組li標籤包裹h4標題及其敘述</p>
+      </div>
+
+
+      <div class="copyArea">
+        <textarea class="content" name="介紹型表單(同列)">
+<!-- 以下是把介紹型表單改成同列的語法 -->
+<ul class="introul2 noBR">
+  <li><h4>介紹型表單(同列)第一項：</h4>第一項的內容說明</li>
+  <li><h4>介紹型表單(同列)第二項：</h4>第二項的內容說明</li>
+</ul>         
+  </textarea>
+        <button class="copyBtn">複製</button>
+      </div>
+
+    </div>
+
+
+    <!-- 第5項 -->
+    <div class="group mx-auto">
+
+
+      <div class="yummy">
+        <p>2-5.優缺點(單獨使用)</p>
+
+
+        <ul class="up" style="margin: 0px;">
+          <li>第1項</li>
+          <li>第2項</li>
+          <li>第3項</li>
+        </ul>
+        <ul class="down" style="margin: 0px;">
+          <li>第1項</li>
+          <li>第2項</li>
+          <li>第3項</li>
+        </ul>
+
+      </div>
+
+
+      <div class="introBox">
+        <p class="intro">up被設定為優點，down被設定為缺點，請使用者自行區分</p>
+        <p class="intro">Step1. 複製這串內容貼到文章的文字(html)編輯頁面<br>
+          Step2. 修改文字內容<br>
+          Step3. 增加項目請多複製一組li標籤並填入內容
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="優缺點(單獨使用)">
+<!-- 這是優點列表 -->
+<ul class="up"><li>第1項</li><li>第2項</li><li>第3項</li></ul>
+<!-- 這是缺點列表 -->
+<ul class="down"><li>第1項</li><li>第2項</li><li>第3項</li></ul>          
+        </textarea>
+        <button class="copyBtn">複製</button>
+      </div>
+
+    </div>
+
+
+
+    <!-- 第6項 -->
+    <div class="group mx-auto">
+
+
+      <div class="yummy">
+        <p>2-6.優缺點(搭配介紹型表單)</p>
+        <ul class="introul2 up" style="margin: 0px;">
+          <li>
+            <h4>審核寬鬆</h4>申請人信用瑕疵或信用評分不足，依然有機會過件。
+          </li>
+          <li>
+            <h4>額度大</h4>核貸金額最高可達到500萬。
+          </li>
+        </ul>
+        <ul class="introul2 down" style="margin: 0px;">
+          <li>
+            <h4>審核嚴</h4>當申請人信用瑕疵，信用評分不足時，房屋增貸不易過件。
+          </li>
+          <li>
+            <h4>額度小</h4>原貸款銀行鑑價後增值空間不大，房屋增貸成功機率通常不高，或核貸金額較低。
+          </li>
+        </ul>
+
+      </div>
+
+
+      <div class="introBox">
+        <p class="intro">有項目標題及項目敘述，此外前方還搭配打勾或打叉的icon</p>
+        <p class="intro">Step1. 複製這串內容貼到文章的文字(html)編輯頁面<br>
+          Step2. 修改文字內容<br>
+          Step3. 若有其他項請再新增一組li標籤包裹h4標題及其敘述
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="優缺點(搭配介紹型表單)" style="height:300px;">
+<!--介紹型表單(優點) -->
+<ul class="introul2 up">
+  <li><h4>優點1</h4>優點1的敘述</li>
+  <li><h4>優點2</h4>優點2的敘述</li>
+</ul>   
+<!--介紹型表單(缺點) -->
+<ul class="introul2 down">
+  <li><h4>缺點1</h4>缺點1的敘述</li>
+  <li><h4>缺點2</h4>缺點2的敘述</li>
+</ul>
+          
+          </textarea>
+        <button class="copyBtn" style="height:300px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第7項 -->
+    <div class="group mx-auto">
+
+
+      <div class="yummy">
+        <p>2-7.優缺點(搭配介紹型表單(同列))</p>
+        <ul class="introul2 noBR up" style="margin: 0px;">
+          <li>
+            <h4>優點1：</h4>因為如何如何，所以實在非常好
+          </li>
+          <li>
+            <h4>優點2：</h4>因為如何簡直太棒了
+          </li>
+        </ul>
+        <ul class="introul2 noBR down" style="margin: 0px;">
+          <li>
+            <h4>缺點1：</h4>房屋增貸不易過件不太好
+          </li>
+          <li>
+            <h4>缺點2：</h4>房屋增貸成功機率通常不高。
+          </li>
+        </ul>
+
+      </div>
+
+
+      <div class="introBox">
+        <p class="intro">這跟2-6差不多，只是在ul的class中多補一個noBR(不換行)的樣式，將介紹型表單變成同列。若要合併編號或其他符號使用，請編輯自行補上，這邊不再多做數字列表的版本。</p>
+        <p class="intro">Step1. 複製這串內容貼到文章的文字(html)編輯頁面<br>
+          Step2. 修改文字內容<br>
+          Step3. 若有其他項請再新增一組li標籤包裹h4標題及其敘述
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="優缺點(搭配介紹型表單(同列))" style="height:300px;">
+<!--介紹型表單(同列＋優點) -->
+<ul class="introul2 noBR up">
+  <li><h4>優點1</h4>優點1的敘述</li>
+  <li><h4>優點2</h4>優點2的敘述</li>
+</ul>   
+<!--介紹型表單(同列＋缺點) -->
+<ul class="introul2 noBR down">
+  <li><h4>缺點1</h4>缺點1的敘述</li>
+  <li><h4>缺點2</h4>缺點2的敘述</li>
+</ul>
+          </textarea>
+        <button class="copyBtn" style="height:300px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第8項 -->
+    <div class="group mx-auto">
+
+
+      <div class="yummy">
+        <p>2-8.特殊標題</p>
+        <p class=yPoint style="margin: 30px;">新鑫、銀行與民間二胎的比較</p>
+        <p class=yPoint2 style="margin: 30px;">新鑫、銀行與民間二胎的比較</p>
+      </div>
+
+
+      <div class="introBox">
+        <p class="intro">如果你需要在文中強調某些標題，特殊標題是除了h2、h3以外的選擇</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 貼到文章的文字(html)編輯頁面<br>
+          Step3. 修改文字內容
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="特殊標題">
+<p class="yPoint">你的標題文字</p>
+            
+            </textarea>
+        <button class="copyBtn" style="height:90px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第9項 -->
+    <div class="group mx-auto">
+
+
+      <div class="yummy">
+        <p>2-9.看更多&立即試算按鈕</p>
+        <a target="_blank" href="https://www.google.com/" class="snsLink">看更多</a>
+        <a target="_blank" href="https://www.google.com/" class="calculator">立即試算</a>
+      </div>
+
+
+      <div class="introBox">
+        <p class="intro">這是純按鈕，雙色，自行變更a標籤內部文字。<br>為了維持美觀，請不要塞超過8個字在按鈕當中。</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 貼到文章的文字(html)編輯頁面<br>
+          Step3. 修改文字內容及網址<br>
+          <span style="color:rgb(212, 9, 9);">*樣式在＜div class="yummy"＞＜/div＞內部才會生效，我怕樣式跟其他頁面的樣式重名，所以有加入這個條件</span>
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="看更多&立即試算按鈕">
+<!-- snsLink是紅色按鈕，calculator是藍綠色按鈕 -->
+<a target="_blank" href="你的網址" class="snsLink">看更多</a>
+<a target="_blank" href="你的網址" class="calculator">立即試算</a>             
+          </textarea>
+        <button class="copyBtn" style="height:90px;">複製</button>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    // 選取對應陣列的內容並複製到剪貼簿        
+
+    let contentElements = document.querySelectorAll('.content');
+    let copyBtnElements = document.querySelectorAll('.copyBtn');
+    document.querySelector
+    let showblock = document.querySelector('#show');
+
+    copyBtnElements.forEach(function (button, index) {
+
+      button.addEventListener('click', function () {
+        contentElements[index].select();
+        navigator.clipboard.writeText(contentElements[index].value);
+        // 複製的物件出現在showblock區域
+        showblock.textContent = '已複製' + contentElements[index].name;
+      });
+    }); 
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

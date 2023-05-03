@@ -1,0 +1,38 @@
+.yummy {
+  ul.QA3 {
+    list-style: none;
+    margin: 10px 0px;
+    mark {
+      font-weight: 600;
+      color: #cd3984;
+    }
+    .T_box {
+      color: #385781;
+      font-weight: 600;
+      font-size: 1.2rem;
+      background-color: #fff9de;
+      margin: 0;
+      padding: 10px 20px;
+    }
+    .Q_box {
+      text-align: left;
+      line-height: 2rem;
+      padding: 10px 10px 15px 20px;
+      background-color: #ecf3fb;
+      .question {
+        font-weight: 400;
+        color: #333;
+      }
+      .moveRight {
+        min-width: 400px;
+      }
+      .yTable_multi2 {
+        width: 90%;
+        margin: 0 auto;
+        @media (max-width: 459px) {
+          width: 800px;
+        }
+      }
+    }
+  }
+}

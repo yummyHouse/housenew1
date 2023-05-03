@@ -1,0 +1,1274 @@
+mark {
+   transition: color 300ms ease-out;
+   background: linear-gradient(to top, rgba(255, 235, 70, 0.6) 1em, transparent 1em);
+}
+
+mark-red {
+   transition: color 300ms ease-out;
+   background: linear-gradient(to top, rgba(245, 18, 70, 0.3) 1em, transparent 1em);
+}
+
+mark-green {
+   transition: color .3s ease-out;
+   background: linear-gradient(to top, rgba(25, 255, 10, 0.5), rgba(255, 255, 255, 0));
+}
+
+mark-blue {
+   transition: color .300ms ease-out;
+   background: linear-gradient(to top, rgba(130, 200, 210, 0.5), 1em, transparent 1em);
+}
+
+table,
+td {
+   border: 1px solid #e8f1f1;
+}
+
+/*下面是yummy的樣式表*/
+/*嵌入影片RWD*/
+.video-container {
+   position: relative;
+   padding-bottom: 50%;
+   padding-top: 25px;
+   height: 0;
+   overflow: hidden;
+   margin: 30px auto;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.yummy {
+   /*微調調低黑白對比字型*/
+   margin: 80px 40px;
+   color: #525252;
+   font-size: 18px;
+   line-height: 32px;
+   font-family: 'Noto Sans TC', sans-serif;
+   /*段落margin: 1.5rem 0px;*/
+}
+
+.yummy h2 {
+   color: #387b8b;
+   font-size: 28px;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+.yummy h3 {
+   color: #5c999b;
+   font-size: 23px;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+.yummy ul {
+   margin-left: 15px;
+}
+
+.yummy ul li {
+   font-weight: bold;
+   color: #0FB4C6;
+}
+
+/* ===介紹型表單Ver.2=== */
+
+.introul2 li {
+   color: #333;
+   font-size: 17px;
+   line-height: 28px;
+}
+
+.introul2 li h4 {
+   color: #0FB4C6;
+   font-weight: bold;
+}
+
+.introul2 li p {
+   color: #333;
+   font-size: 17px;
+   margin: 5px auto 20px;
+   font-weight: normal;
+}
+
+.introul2.noBR li h4,
+.introul2.noBR li p {
+   display: inline;
+}
+
+.introul2.noBR li {
+   margin: 15px 0px;
+}
+
+/* ==============
+    表單與介紹型表單Ver.2優缺點
+    ============== */
+
+.yummy ul.up>li,
+.yummy ul.down>li {
+   list-style: none;
+   color: #555;
+   font-size: 18px;
+}
+
+.yummy ul.up>li::before,
+.yummy ul.up>li h4::before {
+   content: url('https://homeloan.tw/wp-content/uploads/2023/04/good-e1680834546255.png');
+   vertical-align: middle;
+   margin-right: 5px;
+}
+
+.yummy ul.down>li::before,
+.yummy ul.down>li h4::before {
+   content: url('https://homeloan.tw/wp-content/uploads/2023/04/bad-e1680834532197.png');
+   vertical-align: middle;
+   margin-right: 5px;
+}
+
+.introul2.down li h4 {
+   color: #F67A00;
+}
+
+.yummy ul.introul2.down>li::before,
+.yummy ul.introul2.up>li::before {
+   display: none;
+}
+
+/* ==============
+    介紹型表單Ver.2結束
+============== */
+/*=================
+        按鈕開始
+    =================*/
+/* 試算按鈕 */
+.yummy .calculator:hover {
+   background-color: #43e1e7;
+   color: #fff;
+   box-shadow: none;
+   transform: scale(0.98);
+}
+
+.yummy .calculator {
+   letter-spacing: 1px;
+   margin: 20px auto;
+   max-width: 190px;
+   min-width: 120px;
+   text-decoration: none;
+   display: block;
+   background-color: #0FB4C6;
+   padding: 0px 30px;
+   line-height: 50px;
+   color: #fff;
+   text-align: center;
+   border: 1px solid #43e1e7;
+   border-radius: 10px;
+   font-weight: bolder;
+   box-shadow: 0px 2px #43e1e7;
+}
+
+/* 社群連結 */
+.yummy .snsLink:hover {
+   background: #ffbc4c;
+   color: #fff;
+   box-shadow: none;
+   transform: scale(0.98);
+}
+
+.yummy .snsLink {
+   letter-spacing: 1px;
+   margin: 20px auto;
+   max-width: 190px;
+   min-width: 120px;
+   text-decoration: none;
+   display: block;
+   background-color: #F67A00;
+   padding: 0px 30px;
+   line-height: 50px;
+   border: 1px solid #ffbc4c;
+   color: #fff;
+   text-align: center;
+   border-radius: 10px;
+   font-weight: bolder;
+   box-shadow: 0px 2px #ffbc4c;
+}
+
+/*=================
+        按鈕結束
+    =================*/
+/*======================
+           萬用區塊開始
+ ========================*/
+.allOK {
+   position: relative;
+   background: #f3f8f9;
+   margin: 60px 0px;
+   border-top: 1px solid #0fb4c6;
+   border-bottom: 1px solid #0fb4c6;
+   padding: 20px 30px;
+   color: #435358;
+   text-align: 150px;
+   font-size: 17px;
+   line-height: 30px;
+}
+
+.allOK h4 {
+   color: #0a99a9;
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+.allOK P {
+   margin: 0;
+}
+
+@media screen and (max-width:768px) {
+   .allOK {
+      padding: 10px 20px;
+   }
+
+}
+
+/*======================
+           萬用區塊結束
+========================*/
+/*強調星星顏色*/
+.star {
+   color: orange;
+   font-size: 26px;
+}
+
+/*=======================
+         畫重點
+=======================*/
+.yPoint {
+   color: #6fa1a7;
+   font-size: 20px;
+   margin: 30px auto 10px;
+   border-bottom: 1px solid #e6f2f3;
+}
+
+.yPoint::before {
+   content: '';
+   display: inline-block;
+   margin-right: 10px;
+   width: 15px;
+   height: 15px;
+   background: #e6f2f3;
+}
+
+/*======================
+       均分表格開始
+=======================*/
+.average2 td {
+   width: 50%;
+}
+
+.average3 td {
+   width: calc(100%/3);
+}
+
+.average4 td {
+   width: 25%;
+}
+
+.average5 td {
+   width: 20%;
+}
+
+.average6 td {
+   width: calc(100%/6);
+}
+
+.average7 td {
+   width: calc(100%/7);
+}
+
+/*====================
+     均分表格結束
+======================*/
+
+/*======================
+   棋盤表格樣式---開始
+======================*/
+.yTable_chessboard {
+   margin: 30px auto;
+   border: 1px solid #7cbcbf;
+}
+
+.yTable_chessboard tr>td {
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+   padding: 10px;
+   border: none;
+   background-color: #fff;
+}
+
+.yTable_chessboard tr:nth-child(odd)>td:nth-child(odd) {
+   background-color: #e6f2f3;
+}
+
+.yTable_chessboard tr:nth-child(even)>td:nth-child(even) {
+   background-color: #e6f2f3;
+}
+
+/*======================
+   棋盤表格樣式---結束
+======================*/
+
+/*==========================
+    2欄式表格樣式---開始
+==========================*/
+.yTable_2x6 {
+   margin: 20px auto 30px;
+   border-collapse: collapse;
+   letter-spacing: 0.1em;
+}
+
+.yTable_2x6 tr {
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.yTable_2x6 tr>td {
+   padding: 15px;
+   font-size: 17px;
+   vertical-align: middle;
+   line-height: 22px;
+   background-color: #e8f1f1;
+   text-align: center;
+   border: 1px solid #65aab6;
+}
+
+/* 選擇偶數行的第二欄為底色白色 */
+.yTable_2x6 tr:nth-child(even)>td {
+   background-color: #fff;
+   color: rgb(22, 39, 39);
+}
+
+.yTable_2x6 tr>td:first-child {
+   background-color: #65aab6;
+   color: #fff;
+   border: 1px dashed #fff;
+}
+
+/*==========================
+    2欄式表格樣式---結束==========================*/
+
+/*==========================
+     移除左邊第一欄的底色
+==========================*/
+.t1none tr>td:first-child {
+   background-color: #e8f1f1;
+   color: #000;
+   border: 1px solid #65aab6;
+}
+
+.t1none tr:nth-child(even)>td {
+   background-color: #fff;
+}
+
+/*==========================
+ 多欄式表格 突出好事貸---開始
+==========================*/
+.yTable_multi {
+   border-collapse: collapse;
+
+}
+
+/*上方第一欄*/
+.yTable_multi tr:nth-child(1) {
+
+   background-color: #6899d1;
+   color: #fff;
+}
+
+.yTable_multi tr {
+   background-color: #eff3f5;
+
+}
+
+
+/*左方第一欄*/
+.yTable_multi tr>td:nth-child(1) {
+   background-color: #4c73b9;
+   color: #fff;
+   border-bottom: 1px solid #fff;
+}
+
+.yTable_multi tr>td {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   border-right: 1px solid #fff;
+   border-bottom: 1px solid #fff;
+}
+
+
+/*最下排底部邊線不要*/
+.yTable_multi tr:nth-last-child(1)>td {
+   border-bottom: none;
+}
+
+/*最右排底部邊線不要*/
+.yTable_multi tr>td:nth-last-child(1) {
+   border-right: none;
+}
+
+/*強調項目(橫)*/
+.yTable_multi .stress {
+   border: 2px solid #52b5f5;
+   border-left: 10px solid #52b5f5;
+   color: #0a388b;
+   background-color: #e2f6fd;
+}
+
+.yTable_multi .stress>td:nth-child(1) {
+   background-color: #1f5bd7;
+}
+
+/*多欄式表格 突出好事貸---結束*/
+
+/*多欄式表格 下方卷軸---開始*/
+.yTable_multi2 {
+   width: 80%;
+   border-collapse: collapse;
+   margin: 0;
+
+
+}
+
+/*上方第一欄*/
+.yTable_multi2 tr:nth-child(1)>td:nth-child(1) {
+   display: none;
+}
+
+.yTable_multi2 tr:nth-child(2) {
+   background-color: #6899d1;
+   color: #fff;
+}
+
+.yTable_multi2 tr {
+   width: 800px;
+   background-color: #eff3f5;
+
+}
+
+
+
+
+/*左方第一欄*/
+.yTable_multi2 tr>td:nth-child(1) {
+
+   background-color: #4c73b9;
+   color: #fff;
+   border-bottom: 1px solid #fff;
+}
+
+
+
+.yTable_multi2 tr>td {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   border-right: 1px solid #fff;
+   border-bottom: 1px solid #fff;
+}
+
+
+/*最下排底部邊線不要*/
+.yTable_multi2 tr:nth-last-child(1)>td {
+   border-bottom: none;
+}
+
+/*最右排底部邊線不要*/
+.yTable_multi2 tr>td:nth-last-child(1) {
+   border-right: none;
+}
+
+/*強調項目(橫)*/
+.yTable_multi2 .stress {
+   border: 2px solid #52b5f5;
+   border-left: 10px solid #52b5f5;
+   color: #0a388b;
+   background-color: #e2f6fd;
+}
+
+.yTable_multi2 .stress>td:nth-child(1) {
+   background-color: #1f5bd7;
+}
+
+/*多欄式表格 下方卷軸---結束*/
+
+
+
+/*對決式表格---開始*/
+.yTable_pk {
+   border: 1px solid #99aed5;
+   border-collapse: collapse;
+   color: rgb(63, 95, 163);
+}
+
+.yTable_pk tr {
+   display: flex;
+   background-color: #e7f6fd;
+   flex-wrap: nowrap;
+}
+
+
+.yTable_pk tr>td {
+   width: calc(100%/3);
+   padding: 15px;
+   text-align: center;
+
+}
+
+.yTable_pk tr>td:nth-child(2) {
+   border-right: 1px solid rgb(110, 137, 180);
+
+}
+
+
+.yTable_pk tr:first-child>td {
+   background-color: #4371c5;
+   color: #fff;
+
+}
+
+.yTable_pk tr>td:nth-child(1) {
+   background-color: #679fcf;
+   color: #fff;
+   border-bottom: 1px dotted #fff;
+}
+
+.yTable_pk tr:last-child>td:nth-child(1) {
+   border-bottom: none;
+}
+
+.yTable_pk tr:not(:last-child)>td:not(:nth-child(1)) {
+   border-bottom: 1px solid rgb(125, 150, 189);
+}
+
+/*=====================
+       小知識開始
+=======================*/
+.Tips {
+   margin: 20px auto;
+   padding: 10px 20px;
+   list-style: none;
+   border: 1px solid #0FB4C6;
+   border-left: 10px solid #0FB4C6;
+}
+
+.Tips h4 {
+   color: #0FB4C6;
+   font-size: 20px;
+   letter-spacing: 1px;
+   padding-bottom: 10px;
+   display: flex;
+   border-bottom: 1px solid #e6f2f3;
+}
+
+.Tips p {
+   font-size: 17px;
+   line-height: 30px;
+   margin: 10px auto 0px;
+}
+
+/*=====================
+       小知識結束
+=======================*/
+
+/* =====================
+      跳板區塊開始
+=====================*/
+.jumpBoard {
+   max-width: 900px;
+   margin: 40px auto;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   border: 1px solid #0FB4C6;
+   background: #e6f2f3;
+}
+
+.jumpBoard .description {
+   text-align: left;
+   padding: 30px;
+   max-width: 620px;
+   background: #fff;
+}
+
+.jumpBoard .description>p {
+   margin: 0px;
+   font-size: 17px;
+   line-height: 32px;
+}
+
+.jumpBoard .description .des_title {
+   font-size: 21px;
+   color: #0FB4C6;
+   margin-bottom: 10px;
+   text-align: left;
+   font-weight: 600;
+}
+
+.yummy .jumpBoard p {
+   margin: 0px;
+}
+
+.jumpBoard .jumpBtn {
+   background-color: #fff;
+   color: #0FB4C6;
+   display: block;
+   font-size: 18px;
+   letter-spacing: 1px;
+   width: 140px;
+   text-align: center;
+   margin: 0px 70px;
+   padding: 5px 25px;
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.jumpBoard .jumpBtn:hover {
+   background-color: #0FB4C6;
+   color: #fff;
+}
+
+@media screen and (max-width: 787px) {
+   .jumpBoard {
+      flex-direction: column;
+   }
+
+   .jumpBoard .description {
+      border: none;
+      padding: 10px 20px;
+      width: 100%;
+   }
+
+   .jumpBoard .description .des_title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      line-height: 30px;
+      border-bottom: 1px solid #e6f2f3;
+   }
+
+   .jumpBoard .jumpBtn {
+      padding: 5px 25px;
+      margin: 10px;
+      font-size: 18px;
+   }
+}
+
+/* =====================
+      跳板區塊結束 
+=====================*/
+
+/* =======================
+    2022_0711計算區塊開始
+==========================*/
+.calcu_block {
+   padding: 15px 30px 20px;
+   background: #fff8ee;
+   border-left: 10px solid #f5b56d;
+   position: relative;
+   font-size: 18px;
+}
+
+.calcu_block::after {
+   content: '%';
+   position: absolute;
+   transform: rotate(25deg);
+   font-weight: bold;
+   color: #f5b56d;
+   right: 2px;
+   bottom: 2px;
+   opacity: .5;
+   zoom: 4;
+}
+
+.calcu_block>.cal_title {
+   font-size: 22px;
+   letter-spacing: .1em;
+   color: #b56d22;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #f5b56d;
+   font-weight: 600;
+   display: block;
+}
+
+@media screen and (max-width:767px) {
+   .calcu_block {
+      padding: 15px 20px 30px;
+      font-size: 16px;
+      line-height: 30px;
+   }
+
+   .calcu_block::after {
+      zoom: 3.5;
+      bottom: 5px;
+   }
+
+   .calcu_block>.cal_title {
+      font-size: 1.1rem;
+   }
+
+
+}
+
+/* =======================
+   2022_0711計算區塊結束
+==========================*/
+
+
+/*=========================
+       收合式分類項目
+=========================*/
+.sTitle {
+   margin: 30px 20px;
+   text-align: center;
+   display: block;
+}
+
+.sTitle .item {
+   display: flex;
+   border-bottom: 1px dashed #0FB4C6;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.sTitle .item span {
+   width: 30%;
+   padding: 15px 20px;
+   color: #0FB4C6;
+   font-weight: bold;
+   margin: 20px 10px;
+   background: #fff;
+   border-radius: 15px;
+   border: 1px solid #0FB4C6;
+}
+
+.sTitle summary {
+   padding: 5px;
+   font-size: 22px;
+   font-weight: bold;
+   color: #0a99a9;
+   background: #e6f2f3;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+/* =====================
+     收合式分類項目2 
+======================== */
+.sTitle2 {
+   display: block;
+   text-align: center;
+   margin: 30px 20px;
+}
+
+.sTitle2 .item {
+   display: flex;
+   border-bottom: 1px dashed #0FB4C6;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.sTitle2 .item>div {
+   align-items: center;
+   justify-content: space-around;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   text-align: center;
+   margin: 20px 10px;
+   padding: 15px 5px;
+   color: #333;
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: 0.03em;
+   border-radius: 15px;
+   border: 1px solid #0FB4C6;
+}
+
+.sTitle2 .item>div>h4 {
+   color: #0FB4C6;
+   font-weight: 600;
+   font-size: 18px;
+   margin: 0px;
+}
+
+.sTitle2 .item>div>p {
+   margin: 0px;
+   font-size: 17px;
+}
+
+.sTitle2 summary {
+   padding: 5px;
+   font-size: 22px;
+   letter-spacing: 1px;
+   color: #0a99a9;
+   background: #e6f2f3;
+   font-weight: bold;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+
+@media screen and (max-width:767px) {
+
+   .sTitle {
+      padding: 8px;
+   }
+
+   .sTitle .item {
+      display: flex;
+      background: #fff;
+      justify-content: center;
+
+   }
+
+   .sTitle .item>span {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+
+   }
+
+   .sTitle summary,
+   .sTitle2 summary {
+      font-size: 22px;
+      padding: 0px;
+
+   }
+
+   .sTitle .item>span {
+      margin: 8px 5px;
+      font-size: 18px;
+
+   }
+
+   .sTitle2 .item {
+      padding: 10px;
+   }
+
+   .sTitle2 .item>div {
+      margin: 5px;
+   }
+}
+
+/* ========================
+      收合式分類項目結束 
+==========================*/
+/* ========================
+         氣球開始 
+========================*/
+.balloonBox {
+   justify-content: center;
+   padding: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 60px auto;
+}
+
+.balloon {
+   clip-path: ellipse(50% 50% at 50% 50%);
+   margin: 10px;
+   text-align: center;
+   min-width: 300px;
+   min-height: 150px;
+   width: 30%;
+   display: block;
+   padding: 30px;
+   background-color: #eef6f9;
+   color: #4E4E4E;
+   font-size: 20px;
+   line-height: 34px;
+}
+
+.balloonBox strong {
+   color: #a73660;
+}
+
+.balloon>p,
+.balloon>h4 {
+   margin: 0px;
+}
+
+.balloonBox.arrow .balloon {
+   clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%, 0% 0%);
+   padding: 20px 30px 20px 50px;
+   display: flex;
+   flex-direction: column;
+   background: #eef6f9;
+}
+
+.flip {
+   background-color: #ebf6ff;
+}
+
+@media screen and (max-width:767px) {
+   .balloonBox {
+      padding: 0px;
+   }
+
+   .balloon {
+      width: 100%;
+      max-width: 250px;
+   }
+}
+
+/* ========================
+         氣球結束 
+========================*/
+/*=========================
+       測試動畫
+=========================*/
+.floating {
+   animation-name: floating;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   margin-left: 30px;
+   margin-top: 5px;
+}
+
+@keyframes floating {
+   from {
+      transform: translate(0, 0px);
+   }
+
+   65% {
+      transform: translate(0, 10px);
+   }
+
+   to {
+      transform: translate(0, -0px);
+   }
+}
+
+/*=========================
+       測試動畫結束
+=========================*/
+
+/*=============================
+         作者介紹開始
+===============================*/
+.yummy .authorIntro {
+   font-size: 16px;
+   position: relative;
+   border-top: 2px solid #cce4ec;
+   border-bottom: 2px solid #cce4ec;
+   margin: 50px auto;
+   padding: 40px 50px 0px;
+
+}
+
+.yummy .author:hover {
+   color: #477fdd;
+}
+
+.yummy .author {
+   font-size: 26px;
+   position: absolute;
+   top: -16px;
+   background-color: #fff;
+   padding: 0px 20px;
+}
+
+.yummy .author::before {
+   content: '作者簡介－';
+}
+
+.yummy .authorIntro p {
+   line-height: 28px;
+}
+
+.yummy .authorIntro ul {
+   margin: 20px 10px 30px;
+}
+
+.yummy .authorIntro ul li {
+   line-height: 28px;
+}
+
+@media screen and (max-width:767px) {
+   .yummy .authorIntro {
+      padding: 40px 10px 0px;
+   }
+
+   .yummy .author {
+      font-size: 22px;
+      left: 0px;
+   }
+}
+
+/*=============================
+          作者介紹結束
+===============================*/
+
+
+/*=============================
+       延伸閱讀樣式開始
+=============================*/
+.readmore {
+   display: flex;
+   padding: 20px 30px;
+   background-color: #fff;
+   border-top: 1px solid #65aab6;
+   border-bottom: 1px solid #65aab6;
+}
+
+.readmore button {
+   background-color: #65aab6;
+   cursor: default;
+   border: none;
+   font-size: 18px;
+   min-width: 120px;
+   padding: 5px 20px;
+   color: #fff;
+
+}
+
+.readmore a {
+   color: #555;
+   margin: 10px 20px;
+   position: relative;
+}
+
+/*hover*/
+.readmore a:hover {
+   color: #65aab6;
+   font-weight: 600;
+}
+
+/*=============================
+      延伸閱讀樣式結束
+=============================*/
+
+
+/*======================
+       問答--開始
+========================*/
+ul.QA2 {
+   border-radius: 15px;
+   margin: 30px 0px 40px;
+   padding: 0px;
+}
+
+ul.QA2 li {
+   list-style: none;
+   color: #333;
+   margin: 20px 0px;
+}
+
+.QA2 li h4 {
+   border-bottom: 1px solid #0FB4C6;
+   background-color: #e6f2f3;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   margin: 0;
+   color: #0FB4C6;
+   font-weight: bold;
+   font-size: 18px;
+   padding-left: 20px;
+   line-height: 46px;
+}
+
+.QA2 li P {
+   padding: 5px 20px 10px;
+   margin: 5px 0px;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 30px;
+   border-bottom: 1px solid #0FB4C6;
+}
+
+.QA2 li span.none {
+   display: inline-block;
+   margin-right: 10px;
+   color: #0FB4C6;
+}
+
+.QA2 li P span {
+   font-weight: 600;
+}
+
+.QA2 li mark {
+   font-weight: 600;
+   color: #cd3984;
+}
+
+/*問答--舊版*/
+ul.QA {
+   margin: 0px;
+}
+
+.QA li {
+   list-style: none;
+   padding: 5px 15px;
+   font-size: 17px;
+   font-weight: bold;
+   color: #000;
+   background-color: #e6f2f3;
+   border-radius: 15px 15px 0px 0px;
+   border-bottom: 1px solid #0FB4C6;
+
+}
+
+.QA li:nth-child(2) {
+   color: #555;
+   line-height: 28px;
+   font-weight: normal;
+   background-color: #fff;
+}
+
+.QA li>span {
+   margin-right: 5px;
+   color: #0FB4C6;
+   font-weight: bold;
+}
+
+/*======================
+       問答--結束
+========================*/
+
+@media screen and (min-width: 460px) and (max-width: 875px) {
+   .yTable_multi {
+      font-size: 16px;
+      line-height: 28px;
+   }
+
+   .yTable_multi tr>td {
+      padding: 12px 8px;
+
+   }
+
+   .yTable_multi2 tr:nth-child(1)>td:nth-child(1) {
+      display: block;
+      background-color: #fff;
+      color: #6899d1;
+      line-height: 20px;
+      text-align: left;
+   }
+
+   .yTable_multi2 {
+      width: 800px;
+      border: 2px solid #6899d1;
+   }
+
+   /* 向右滑動overflow */
+   .moveRight {
+      max-width: 800px;
+      min-width: 430px;
+      overflow: auto;
+   }
+
+
+}
+
+
+@media screen and (max-width: 459px) {
+   .readmore {
+      padding: 10px 20px;
+      line-height: 25px;
+      font-size: 16px;
+   }
+
+   .readmore button {
+      font-size: 12px;
+      padding: 5px 3px;
+   }
+
+   /* 2欄式表格樣式---開始*/
+   .yTable_2x6 {
+      font-size: 16px;
+      line-height: 24px;
+   }
+
+   .yTable_2x6 tr>td {
+      padding: 10px;
+
+   }
+
+
+   /* 選擇每一行的第一欄底下有白色點點作為分隔線 */
+   .yTable_2x6 tr>td:nth-child(odd) {
+
+      border-bottom: 1px dotted #fff;
+   }
+
+   /* 最後一行的第一欄底部不需要分隔線 */
+   .yTable_2x6 tr:nth-last-child(1)>td:nth-child(1) {
+      border: none;
+   }
+
+
+
+   /* 2欄式表格樣式---結束 */
+
+   .star {
+      font-size: 20px;
+   }
+
+   .yTable_multi2 tr:nth-child(1)>td:nth-child(1) {
+      display: block;
+      background-color: #fff;
+      color: #6899d1;
+      line-height: 20px;
+      text-align: left;
+
+   }
+
+   .yTable_multi2 {
+      width: 800px;
+      border: 1px solid #6899d1;
+   }
+
+   /* 向右滑動overflow */
+   .moveRight {
+      max-width: 420px;
+      min-width: 300px;
+      overflow: auto;
+   }
+
+   /*多欄式表格 突出好事貸---開始*/
+   .yTable_multi {
+      font-size: 15px;
+      line-height: 25px;
+   }
+
+
+   .yTable_multi tr:nth-child(1) {
+      font-weight: lighter;
+      background-color: #6899d1;
+      color: #fff;
+   }
+
+   .yTable_multi tr>td {
+      padding: 10px 5px;
+
+   }
+
+   .yTable_pk {
+      font-size: 16px;
+      line-height: 25px;
+      padding: 8px;
+   }
+
+
+}

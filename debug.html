@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/iloanstyle.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>保護眼睛計畫</title>
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      width: 100%;
+    }    
+    #wrap{
+      width: 100%;
+      padding-top: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #wrap>p{
+      text-align: center;
+      margin-top: 50px;
+    }
+    img{
+      max-width: 800px;
+      display:block;
+      margin:auto;
+      margin-bottom: 20px;
+    }
+    .normalp{
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 400;
+    }
+    h3, h4{
+      text-align: center;
+      margin-top: 50px;
+    }
+    h3{
+      width: 70%;
+      margin: 0 auto;
+      color: rgb(91, 112, 151);
+      border-bottom: 5px double rgb(147, 147, 177);
+    }
+   
+  </style>
+  
+
+</head>
+
+<body>
+  <!-- script要引入必須要在body下方 中間不能被其他標籤隔開 -->
+  <script src="./scripts/header.js"></script>
+
+  
+  <div id="wrap">
+
+    <h3>保護眼睛計畫</h3>
+    <h4>一.準備使用工具</h4>
+      <p>1-1.下載<a href="https://code.visualstudio.com/">VScode</a></p>
+      <img src="./img/debug1.png">
+      <p class="normalp">1-2.點選Download for Windows按鈕，下載Windows x64的穩定(Stable)版本 </p> 
+      <img src="./img/debug1-1.png" style="width: 400px;" >     
+      
+      <p class="normalp">1-3.開啟VScode的程式會看到這個畫面</p>  
+      <img src="./img/debug1-2.PNG">
+      
+      
+    <p class="normalp">1-4.左邊工具列的第五個圖案是外掛，點選他</p>  
+    <img src="./img/debug1-3.PNG">    
+
+   
+    <p>1-5.在上方搜尋欄搜尋Live，找到live server這個外掛</p>
+    <img src="./img/debug3-1.PNG">
+
+    <p>1-6.安裝它，並在檔案(file)的下拉選單處，勾選自動存檔(Auto Save)搭配使用，它可以讓你即時瀏覽網頁的變化</p>
+    <img src="./img/autosave.png">
+
+    <h4>二.創建html頁面</h4>
+    <p>2-1.開啟存放網站的資料夾(任意創建)，讓vscode能找到檔案路徑<br>
+      <span style="color: brown;">※架設網站重要的概念，請以資料夾為單位存放</span> </p>
+    <img src="./img/openfolder.png" >
+
+    <p>2-2.<a href="https://drive.google.com/file/d/1hFCQWIIc8K9fOz3_xLjrYugYMDgXR02R/view?usp=sharing">下載這個檔案</a>到存放網站的資料夾</p>
+    <img src="./img/samplehtml.PNG" >
+
+    <p>2-3.點選該html檔，開啟這個檔案的編輯畫面</p>
+    <img src="./img/openfile.PNG" >
+
+    <p>2-4.對著畫面案右鍵點選open with live server，以預設瀏覽器開啟網頁，語法有變更瀏覽器上的頁面也會即時更換</p>
+    <img src="./img/rightclick.png" >
+
+    <p>2-5.在body內貼上文章，如果語法被標上紅字表示前後可能有錯(預設為好事貸樣式)
+      <br><span style="color: brown;">※它只能檢查出少括號這種錯誤，打錯樣式或少標籤是檢查不出來的</span></p>
+
+    <img src="./img/bugtype1.jpg" >
+
+
+
+    
+    
+
+
+  
+
+   
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    // 選取對應陣列的內容並複製到剪貼簿        
+
+    let contentElements = document.querySelectorAll('.content');
+    let copyBtnElements = document.querySelectorAll('.copyBtn');
+    document.querySelector
+    let showblock = document.querySelector('#show');
+
+    copyBtnElements.forEach(function (button, index) {
+
+      button.addEventListener('click', function () {
+        contentElements[index].select();
+        navigator.clipboard.writeText(contentElements[index].value);
+        // 複製的物件出現在showblock區域
+        showblock.textContent = '已複製' + contentElements[index].name;
+      });
+    }); 
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/houseloanstyle.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>表格樣式</title>
+  <style>
+    .yummy{
+      padding: 50px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- script要引入必須要在body下方 中間不能被其他標籤隔開 -->
+  <script src="./scripts/header.js"></script>
+
+
+  <div id="wrap">
+    <p class="attention">＊請停用三欄式pk表格 class="yTable_pk"，看到標頭在中間的表格請移到最左邊＊</p>
+    <!-- 第1項 -->
+    <div class="group mx-auto " style="margin-top:5px;">
+      <div class="yummy accordion-collapse collapse show" id="panelsStayOpen-collapseOne"
+        class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <p>3-1.橫欄表格</p>
+        <table class="yTable_2x6 " width="700">
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+        </table>
+
+        <p style="margin:20px auto -5px;">如果需要拿掉左側第一欄標頭，請加t1none樣式，或使用棋盤格（無標頭）樣式</p>
+        <table class="yTable_2x6 t1none" width="700">
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+        </table>
+
+
+
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">讓表格呈現橫向交錯排列，左邊第一行的標頭底色加深字體加粗，內容的奇數行／偶數行為不同顏色，可與上方標頭樣式搭配使用</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 取代表格的＜table＞標籤或只複製class="yTable_2x6"貼到＜table＞標籤頭內<br>
+
+
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="橫欄表格">
+<table class="yTable_2x6"></table>
+
+<!-- 拿掉標頭的樣式如下 -->
+<table class="yTable_2x6 t1none"></table>            
+          </textarea>
+        <button class="copyBtn" style="height:120px;">複製</button>
+
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- 第2項 -->
+    <div class="group mx-auto">
+
+
+
+
+      <div class="yummy">
+        <p>3-2.縱向表格</p>
+        <table class="yTable_2ver" width="700">
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+        </table>
+
+
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">讓表格呈現縱向交錯排列，上方第一行的底色加深，字體加粗。奇數行／偶數行為不同顏色，可與左側標頭樣式搭配使用</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 取代表格的＜table＞標籤或只複製class="yTable_2ver"貼到＜table＞標籤頭內<br>
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="縱向表格">
+<table class="yTable_2ver"></table>
+            
+          </textarea>
+        <button class="copyBtn" style="height:80px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第3項 -->
+    <div class="group mx-auto">
+
+
+
+
+      <div class="yummy">
+        <p>3-3.多欄式表格</p>
+
+        <table class="yTable_multi" width="700" style="margin: 50px auto;">
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>標頭1</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+        </table>
+
+
+
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">自動在左邊第一欄、與上方第一欄加上標頭的底色，且字體加粗</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 取代表格的＜table＞標籤或只複製class="yTable_multi"貼到＜table＞標籤頭內
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="多欄式表格">
+<table class="yTable_multi "></table>           
+          
+          </textarea>
+        <button class="copyBtn" style="height:80px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第4項 -->
+    <div class="group mx-auto">
+
+
+
+
+      <div class="yummy">
+        <p>3-4.多欄式表格(向左滑動讀取更多)</p>
+
+        <div class="moveRight">
+          <table class="yTable_multi2" width="700">
+            <tr>
+              <td>標頭1</td>
+              <td>內容</td>
+              <td>內容</td>
+              <td>內容</td>
+            </tr>
+            <tr>
+              <td>標頭1</td>
+              <td>內容</td>
+              <td>內容</td>
+              <td>內容</td>
+            </tr>
+            <tr>
+              <td>標頭1</td>
+              <td>內容</td>
+              <td>內容</td>
+              <td>內容</td>
+            </tr>
+            <tr>
+              <td>標頭1</td>
+              <td>內容</td>
+              <td>內容</td>
+              <td>內容</td>
+            </tr>
+            <tr>
+              <td>標頭1</td>
+              <td>內容</td>
+              <td>內容</td>
+              <td>內容</td>
+            </tr>
+          </table>
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">自動在左邊第一欄、與上方第一欄加上標頭的底色，且字體加粗。當視窗寬度低於800px時，上方出現「向左滑動看更多」的字樣</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 取代表格的＜table＞標籤(請理解為把樣式名稱為yTable_multi2"的表格包在＜div class="moveRight"＞＜/div＞裡面)
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+
+        <textarea class="content" name="多欄式表格(寬度超過800px出現向左滑動看更多)">
+<div class="moveRight"><table class="yTable_multi2"></table></div>          
+            
+            </textarea>
+        <button class="copyBtn" style="height:90px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第5項 -->
+    <div class="group mx-auto">
+
+
+
+
+      <div class="yummy">
+        <p>3-5.棋盤格(無標頭)表格</p>
+
+
+        <table class="yTable_chessboard" width="700">
+          <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+          <tr>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>
+        </table>
+
+
+
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">如果你不需要任何的標頭，請使用他</p>
+        <p class="intro">Step1. 複製這串內容<br>
+          Step2. 取代表格的＜table＞標籤或只複製class="yTable_chessboard"貼到＜table＞標籤頭內
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+        <textarea class="content" name="棋盤格(無標頭)表格">
+<table class="yTable_chessboard"></table>
+            </textarea>
+        <button class="copyBtn" style="height:80px;">複製</button>
+      </div>
+
+    </div>
+
+    <!-- 第6項 -->
+    <div class="group mx-auto">
+
+
+
+
+      <div class="yummy">
+        <p>3-6.均分表格寬度(2~7個欄位)</p>
+
+
+        <table class="yTable_chessboard average2" width="700">
+          <tr>
+            <td>我是標題我是標題</td>            
+            <td>內容</td>
+          </tr>          
+        </table>
+        <table class="yTable_chessboard average3" width="700">
+          <tr>
+            <td>我是標題我是標題</td> 
+            <td>內容</td>            
+            <td>內容</td>
+          </tr>          
+        </table>
+        <table class="yTable_chessboard average4" width="700">
+          <tr>
+            <td>我是標題我是標題</td> 
+            <td>內容</td>            
+            <td>內容</td>
+            <td>內容</td>
+          </tr>          
+        </table>
+        <table class="yTable_chessboard average5" width="700">
+          <tr>
+            <td>我是標題我是標題</td> 
+            <td>內容</td>            
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>          
+        </table>
+        <table class="yTable_chessboard average6" width="700">
+          <tr>
+            <td>我是標題我是標題</td> 
+            <td>內容</td>            
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>          
+        </table>
+        <table class="yTable_chessboard average7" width="700">
+          <tr>
+            <td>我是標題我是標題</td> 
+            <td>內容</td>            
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+            <td>內容</td>
+          </tr>          
+        </table>
+
+
+
+
+      </div>
+
+
+
+      <div class="introBox">
+        <p class="intro">當表格內容多的欄位壓縮到內容少的，覺得不好看，可以加上此樣式合併使用。<br><span style="color: red;">※要先移除跟著word複製過來的預設寬度才有效果</span></p>
+        <p class="intro">Step1. 複製這串內容貼到class=""中，不同樣式合併使用要用空格分開<br>
+          Step2. 要記得改欄位數(目前做了2~7欄)
+        </p>
+      </div>
+
+
+      <div class="copyArea">
+        <textarea class="content" name="均分表格寬度">
+<!-- 舉例:棋盤格表格 + 均分兩欄 -->
+<table class="yTable_chessboard average2"></table>
+                 
+<!-- 舉例:橫欄表格 + 均分六欄 -->
+ <table class="yTable_2x6 average6"></table>
+              </textarea>
+        <button class="copyBtn" style="height:170px;">複製</button>
+      </div>
+
+    </div>
+
+    
+ 
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    // 選取對應陣列的內容並複製到剪貼簿        
+
+    let contentElements = document.querySelectorAll('.content');
+    let copyBtnElements = document.querySelectorAll('.copyBtn');
+    let showblock = document.querySelector('#show');
+
+    copyBtnElements.forEach(function (button, index) {
+
+      button.addEventListener('click', function () {
+        contentElements[index].select();
+        navigator.clipboard.writeText(contentElements[index].value);
+        // 複製的物件出現在showblock區域
+        showblock.textContent = '已複製' + contentElements[index].name;
+      });
+    });
+
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
