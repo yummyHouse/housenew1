@@ -15,31 +15,35 @@
   <title>樣式總表</title>
 
   <style>
-    *{
+    * {
       box-sizing: border-box;
     }
+
     .copyBtn,
     .content {
       height: 38px;
       font-size: 18px;
     }
-    tr.title>td:first-child{
-    background-color: #f9ffc5;
-    border: 1px solid #e7c75b;
-    border-right: 1px solid #e7c75b;
-    color: #4c391d;
-    font-weight: 600;
-  }
-  tr.title>td:nth-child(2){
-    background-color: #e7c75b !important;
-    border: 1px solid #e7c75b;    
-    color: #4c391d;
-    font-weight: 600;   
-  }
-  textarea.content{
-    background-color: rgb(254, 255, 251);
-    border-left: 5px solid rgb(106, 199, 176);
-  }
+
+    tr.title>td:first-child {
+      background-color: #f9ffc5;
+      border: 1px solid #e7c75b;
+      border-right: 1px solid #e7c75b;
+      color: #4c391d;
+      font-weight: 600;
+    }
+
+    tr.title>td:nth-child(2) {
+      background-color: #e7c75b !important;
+      border: 1px solid #e7c75b;
+      color: #4c391d;
+      font-weight: 600;
+    }
+
+    textarea.content {
+      background-color: rgb(254, 255, 251);
+      border-left: 5px solid rgb(106, 199, 176);
+    }
   </style>
 </head>
 
@@ -49,11 +53,11 @@
 
 
   <div id="wrap">
-    
+
     <p>總表</p>
     <h5 style="color:rgb(194, 53, 29); margin: 50px auto 10px; width:1100px; line-height:30px;">
       　※請大家用按複製按鈕的方式複製，避免遺漏標籤的可能(除非真的很熟)
-      <br>【2023.03.23】會後微調萬用區塊與noBR間距      
+      <br>【2023.03.23】會後微調萬用區塊與noBR間距
     </h5>
     <table class="yTable_2ver">
       <tr>
@@ -188,7 +192,7 @@
         </td>
       </tr>
 
-      
+
       <tr>
         <td>2-8.特殊標題</td>
         <td style="display: flex;">
@@ -326,14 +330,63 @@
         <td>4-2.問與答</td>
         <td style="display: flex;">
           <textarea class="content" name="問與答">
-<ul class="QA2">
-  <li><h4><span class="none">Q</span>問題一</h4>
-    <p><span class="none">A</span>答案敘述一</p>
+<ul class="QA3">
+  <li class="T_box">
+    <span class="none">Q</span> 
+    <span class="Title">問題一</span>
   </li>
-  <li>
-    <h4><span class="none">Q</span>問題二</h4>
-    <p><span class="none">A</span>答案敘述二</p>
+  <li class="Q_box">
+    <span class="question"> 答案敘述</span>
+  </li>         
+</ul>
+        </textarea>
+          <button class="copyBtn">複製</button>
+        </td>
+      </tr>
+      <tr>
+        <td>4-2-1.問與答 + 表格</td>
+        <td style="display: flex;">
+          <textarea class="content" name="問與答">
+<ul class="QA3">
+  <li class="T_box">
+    <span class="none">Q</span> 
+    <span class="Title">問題一</span>
   </li>
+  <li class="Q_box">
+    <span class="question"> 答案敘述</span>
+    <table class="yTable_multi2">
+      <tbody><tr>
+        <td>標頭1</td>
+        <td>內容</td>
+        <td>內容</td>
+        <td>內容</td>
+      </tr>
+      <tr>
+        <td>標頭1</td>
+        <td>內容</td>
+        <td>內容</td>
+        <td>內容</td>
+      </tr>
+      <tr>
+        <td>標頭1</td>
+        <td>內容</td>
+        <td>內容</td>
+        <td>內容</td>
+      </tr>
+      <tr>
+        <td>標頭1</td>
+        <td>內容</td>
+        <td>內容</td>
+        <td>內容</td>
+      </tr>
+      <tr>
+        <td>標頭1</td>
+        <td>內容</td>
+        <td>內容</td>
+        <td>內容</td>
+      </tr>
+    </tbody></table>
+  </li>         
 </ul>
         </textarea>
           <button class="copyBtn">複製</button>
@@ -381,7 +434,7 @@
         </td>
       </tr>
 
-      
+
       <tr>
         <td>4-6.展開細節</td>
         <td style="display: flex;">
@@ -400,9 +453,9 @@
       <tr>
 
       <tr>
-          <td>4-7.展開分類項目</td>
-          <td style="display: flex;">
-            <textarea class="content" name="展開分類項目">
+        <td>4-7.展開分類項目</td>
+        <td style="display: flex;">
+          <textarea class="content" name="展開分類項目">
 <details class="sTitle2" open><summary>標題</summary>
     <div class="item">
       <div><h4>資料1</h4>細項內容1</div>
@@ -411,11 +464,11 @@
     </div>
 </details>                                        
             </textarea>
-            <button class="copyBtn">複製</button>
-          </td>
+          <button class="copyBtn">複製</button>
+        </td>
       </tr>
 
-        <tr>
+      <tr>
         <td>4-8.跳板區塊</td>
         <td style="display: flex;">
           <textarea class="content" name="跳板區塊">
