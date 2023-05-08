@@ -63,6 +63,16 @@ button {
   content: '▪';
   margin-right: 10px;
 }
+.introul2 > li .h4 {
+  color: #3561b9;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.introul2 > li .h4::before {
+  content: '▪';
+  margin-right: 10px;
+}
 .introul2 > li p {
   color: #000;
   line-height: 32px;
@@ -70,6 +80,12 @@ button {
   font-weight: 400;
 }
 .introul2.noBR > li h4 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  line-height: 32px;
+}
+.introul2.noBR > li .h4 {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 0px;
