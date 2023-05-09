@@ -257,6 +257,13 @@ button {
   border-radius: 25px;
   padding: 10px 20px;
 }
+.allOK .h4 {
+  font-size: 17px;
+  color: #404080;
+  background-color: #e1f2f7;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
 
 /* 縱狀表格*/
 .yTable_2ver {
@@ -459,6 +466,12 @@ button {
   border-radius: 15px;
 }
 .sTitle2 .item > div > h4 {
+  color: #31994c;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.sTitle2 .item > div > .h4 {
   color: #31994c;
   font-weight: 600;
   font-size: 20px;
@@ -791,6 +804,19 @@ section.Tips h4 {
 }
 
 section.Tips h4::before {
+  content: url('https://houseloan.tw/wp-content/uploads/2022/07/tips_pin-1.png');
+  margin-right: 15px;
+}
+section.Tips .h4 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #745a36;
+  display: flex;
+  border-bottom: 1px solid #a0bbe7;
+}
+
+section.Tips .h4::before {
   content: url('https://houseloan.tw/wp-content/uploads/2022/07/tips_pin-1.png');
   margin-right: 15px;
 }
