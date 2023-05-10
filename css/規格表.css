@@ -1,5 +1,5 @@
 * {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 .container {
@@ -42,16 +42,16 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .Typography .flex_wrap {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .Typography .flex_auto {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 .Typography .w-1\/5 {
   width: 20%;
@@ -99,6 +99,15 @@
   max-width: 115px;
   display: inline-block;
 }
+.Typography .l-s-2px .v-a-middle {
+  letter-spacing: 2px;
+}
+.Typography .l-s-3px .v-a-middle {
+  letter-spacing: 3px;
+}
+.Typography .l-s-4px .v-a-middle {
+  letter-spacing: 4px;
+}
 .Typography .font_w_100 {
   font-weight: 100;
 }
@@ -141,7 +150,7 @@
 .Typography .letter_spacing_2px {
   letter-spacing: 2px;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .Typography .letter_spacing_3px {
   letter-spacing: 3px;
@@ -203,4 +212,4 @@
   border-bottom: 1px solid #5d5d5d;
   color: #178d9e;
   padding: 20px;
-}/*# sourceMappingURL=規格表.css.map */
+} /*# sourceMappingURL=規格表.css.map */
