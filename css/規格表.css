@@ -1,0 +1,206 @@
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1430px;
+  }
+}
+
+.Typography h1 {
+  margin: 20px 0;
+}
+.Typography p {
+  margin: 20px 0;
+}
+.Typography .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.Typography .flex_wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.Typography .flex_auto {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.Typography .w-1\/5 {
+  width: 20%;
+}
+.Typography .w-1\/4 {
+  width: 25%;
+}
+.Typography .w-100 {
+  width: 100%;
+}
+.Typography .p-1 {
+  padding: 10px;
+}
+.Typography .m-5 {
+  margin: 5px;
+}
+.Typography .bor {
+  border: 1px solid #5d5d5d;
+}
+.Typography .v-a-middle {
+  vertical-align: middle;
+}
+.Typography .line_h_18px {
+  line-height: 18px;
+  max-width: 115px;
+  display: inline-block;
+}
+.Typography .line_h_20px {
+  line-height: 20px;
+  max-width: 115px;
+  display: inline-block;
+}
+.Typography .line_h_25px {
+  line-height: 25px;
+  max-width: 115px;
+  display: inline-block;
+}
+.Typography .line_h_30px {
+  line-height: 30px;
+  max-width: 115px;
+  display: inline-block;
+}
+.Typography .line_h_35px {
+  line-height: 35px;
+  max-width: 115px;
+  display: inline-block;
+}
+.Typography .font_w_100 {
+  font-weight: 100;
+}
+.Typography .font_w_200 {
+  font-weight: 200;
+}
+.Typography .font_w_300 {
+  font-weight: 300;
+}
+.Typography .font_w_400 {
+  font-weight: 400;
+}
+.Typography .font_w_500 {
+  font-weight: 500;
+}
+.Typography .font_w_600 {
+  font-weight: 600;
+}
+.Typography .font_w_700 {
+  font-weight: 700;
+}
+.Typography .font_w_800 {
+  font-weight: 800;
+}
+.Typography .font_w_900 {
+  font-weight: 900;
+}
+.Typography .font_w_bold {
+  font-weight: bold;
+}
+.Typography .font_w_bolder {
+  font-weight: bolder;
+}
+.Typography .letter_spacing_0px {
+  letter-spacing: 0px;
+}
+.Typography .letter_spacing_1px {
+  letter-spacing: 1px;
+}
+.Typography .letter_spacing_2px {
+  letter-spacing: 2px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.Typography .letter_spacing_3px {
+  letter-spacing: 3px;
+}
+.Typography .letter_spacing_4px {
+  letter-spacing: 4px;
+}
+.Typography .letter_spacing_5px {
+  letter-spacing: 5px;
+}
+.Typography .item_box {
+  border: 1px solid #5d5d5d;
+  padding: 10px 5px;
+  margin: 20px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+.Typography .item_box span {
+  display: block;
+}
+.Typography .item_box span.Light {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5d5d5d;
+  color: #178d9e;
+  padding: 20px;
+}
+.Typography .item_box span.Regular {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5d5d5d;
+  color: #178d9e;
+  padding: 20px;
+}
+.Typography .item_box span.Medium {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5d5d5d;
+  color: #178d9e;
+  padding: 20px;
+}
+.Typography .item_box span.Blod {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5d5d5d;
+  color: #178d9e;
+  padding: 20px;
+}
+.Typography .item_box span.Black {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5d5d5d;
+  color: #178d9e;
+  padding: 20px;
+}/*# sourceMappingURL=規格表.css.map */
