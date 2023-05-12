@@ -809,7 +809,7 @@ section.Tips h4::before {
   content: url('https://houseloan.tw/wp-content/uploads/2022/07/tips_pin-1.png');
   margin-right: 15px;
 }
-section.Tips .h4 {
+.Tips .h4 {
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2rem;
@@ -818,7 +818,7 @@ section.Tips .h4 {
   border-bottom: 1px solid #a0bbe7;
 }
 
-section.Tips .h4::before {
+.Tips .h4::before {
   content: url('https://houseloan.tw/wp-content/uploads/2022/07/tips_pin-1.png');
   margin-right: 15px;
 }
