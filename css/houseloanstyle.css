@@ -47,6 +47,7 @@ button {
   font-weight: 400;
   color: black;
 }
+
 /* ==============介紹型表單Ver.2開始=========== */
 .introul2 > li {
   list-style: none;
@@ -123,6 +124,13 @@ button {
 .yummy ul.introul2.down > li::before,
 .yummy ul.introul2.up > li::before {
   content: '';
+}
+
+.yummy .introul > li.c_text {
+  color: black;
+}
+.yummy .introul > li.c_text::before {
+  display: none;
 }
 
 /* ==============介紹型表單Ver.2結束============== */
