@@ -175,7 +175,7 @@
 }
 .Typography .item_box span.Light {
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 20px;
   border-bottom: 1px solid #5d5d5d;
   color: #178d9e;
@@ -183,7 +183,7 @@
 }
 .Typography .item_box span.Regular {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 20px;
   border-bottom: 1px solid #5d5d5d;
   color: #178d9e;
@@ -191,7 +191,7 @@
 }
 .Typography .item_box span.Medium {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 20px;
   border-bottom: 1px solid #5d5d5d;
   color: #178d9e;
@@ -199,7 +199,7 @@
 }
 .Typography .item_box span.Blod {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 20px;
   border-bottom: 1px solid #5d5d5d;
   color: #178d9e;
@@ -207,7 +207,7 @@
 }
 .Typography .item_box span.Black {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 20px;
   border-bottom: 1px solid #5d5d5d;
   color: #178d9e;
